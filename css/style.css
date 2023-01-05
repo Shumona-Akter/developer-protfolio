@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.button{
+    font-weight: 700;
+    font-size: 20px;
+    color:#FFFFFF;
+    padding: 18px 35px;
+    background: #FD6E0A;
+    text-align: center;
+    height: 64px;
+    border-radius: 5px;
+    border-color: #FFF8F3;
+    text-transform: capitalize;
+}
+.para{
+    color: #757575;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 32px;
+}
+.button:hover{
+    background-color: transparent;
+    border-color: #FD6E0A;
+    color: #FD6E0A;
+}
+/* common css ends */
+header{
+    background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 200px;
+    padding: 50px 0;
+}
+nav h1{
+    font-size: 45px;
+    font-weight: 800;
+    color: #1E1E1E;
+}
+nav .logo-cl-cng{
+    color: #FD6E0A;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 50px;
+}
+nav li a{
+    text-decoration: none;
+    color: #1E1E1E;
+    font-size: 20px;
+    font-weight: 400;
+}
+nav li:hover a{
+    color: #FD6E0A;
+}
+.banner{
+    display: flex;
+    margin: 0 50px 0px 200px;
+}
+.subtittle{
+    margin-top: 130px;
+    font-weight: 600;
+    font-size: 45px;
+    color: #474747;
+}
+.title{
+    color: #1E1E1E;
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.banner p{
+    color: #757575;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.banner .button{
+    margin-right: 30px;
+}
+main{
+    margin: 0 200px;
+}
+.about-me{
+    margin: 130px 0;
+    text-align: center;
+    padding: 132px 157px;
+    background: #FFF8F3;
+    border-radius: 10px;
+}
+.about-me .about-title{
+    text-transform: capitalize;
+    color: #1E1E1E;
+    font-size: 35px;
+} 
+.about-me .about-content{
+    margin: 30px 0;
+
+}
+.about-me .infomation{
+    display: flex;
+    gap: 20px;
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.about-me .infomation span{
+    display: block;
+    color: #474747;
+    font-size: 18px;
+    text-transform: inherit;
+    font-weight: 700;
+    margin-top: 13px;
+}
