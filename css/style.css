@@ -23,6 +23,11 @@
     margin-bottom: 30px;
     line-height: 32px;
 }
+.section-title{
+        text-transform: capitalize;
+        color: #1E1E1E;
+        font-size: 35px;
+    }
 .button:hover{
     background-color: transparent;
     border-color: #FD6E0A;
@@ -127,4 +132,39 @@ main{
     text-transform: inherit;
     font-weight: 700;
     margin-top: 13px;
+}
+/* about me ends========= */
+.what-i-do .work-content{
+    text-align: center;
+}
+
+.what-i-do .work-content .para{
+    padding: 30px 100px 80px;
+}
+.what-i-do .work-detaiils{
+    display: flex;
+    gap: 20px;
+    padding: 30px 33px;
+
+}
+.work-detaiils{
+    
+}
+.work-detaiils .work-name{
+    text-align: left;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px #f1f1f1,
+                -5px -5px 15px #f1f1f1;
+}
+.work-detaiils .work-name .icon-title{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-style: 20px;
+    color: #1E1E1E;
+    font-weight: 700;
+}
+.work-detaiils .work-name{
+    
 }
