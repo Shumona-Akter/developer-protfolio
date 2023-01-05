@@ -147,9 +147,7 @@ main{
     padding: 30px 33px;
 
 }
-.work-detaiils{
-    
-}
+
 .work-detaiils .work-name{
     text-align: left;
     padding: 20px;
@@ -165,6 +163,50 @@ main{
     color: #1E1E1E;
     font-weight: 700;
 }
-.work-detaiils .work-name{
-    
+/* resume start */
+.resume{
+    margin-top: 130px;
+    text-align: center;
+}
+.summery{
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    margin-top: 115px;
+}
+.resume .resume-item{
+    margin-bottom: 30px;
+    padding: 10px;
+}
+.resume .resume-item h2{
+    text-transform: capitalize;
+    font-size: 30px;
+    color: #474747;
+    font-weight: 700;
+    text-align: left;
+}
+.resume .resume-item h3{
+    text-transform: capitalize;
+    font-size: 25;
+    color: #474747;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    text-transform: capitalize;
+}
+.resume .resume-item h4{
+    text-transform: capitalize;
+    font-size: 20;
+    color: #757575;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 30px;
+} 
+.resume .resume-item p{
+    margin-bottom: 30px;
+}
+.resume .button{
+    margin-top: 30px;
+    margin-bottom: 113px;
 }
