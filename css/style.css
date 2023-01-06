@@ -205,8 +205,41 @@ main{
 } 
 .resume .resume-item p{
     margin-bottom: 30px;
+    text-align: left;
 }
 .resume .button{
     margin-top: 30px;
     margin-bottom: 113px;
+}
+footer{
+   
+    background: #FFF8F3;
+}
+.form{
+    display: flex;
+    gap: 117px;
+    padding:130px 200px;
+}
+.connect-me h1{
+    
+    margin-bottom: 20px;
+}
+.connect-me a{
+    margin-top: 30px;
+    margin-right: 24px;
+}
+input, textarea{
+    height: 64px;
+    padding: 18px 30px;
+    margin-bottom: 24px;
+    width: 100%;
+    resize: none;
+    outline: none;
+    border: none;
+}
+textarea{
+    height: 180px;
+}
+form button{
+    margin: 0 auto;
 }
